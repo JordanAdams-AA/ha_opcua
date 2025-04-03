@@ -1,0 +1,23 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "OPC UA Server",
+                "description": "Konfigurieren Sie Ihre OPC UA Serververbindung",
+                "data": {
+                    "url": "Server URL",
+                    "username": "Benutzername (optional)",
+                    "password": "Passwort (optional)",
+                    "name": "Name (optional)"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Verbindung zum OPC UA Server fehlgeschlagen",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "abort": {
+            "reauth_successful": "Neue Authentifizierung erfolgreich"
+        }
+    }
+} 

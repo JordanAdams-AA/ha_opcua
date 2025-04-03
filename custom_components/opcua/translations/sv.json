@@ -1,0 +1,23 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "OPC UA Server",
+                "description": "Konfigurera din OPC UA serveranslutning",
+                "data": {
+                    "url": "Server URL",
+                    "username": "Användarnamn (valfritt)",
+                    "password": "Lösenord (valfritt)",
+                    "name": "Namn (valfritt)"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Kunde inte ansluta till OPC UA servern",
+            "unknown": "Oväntat fel"
+        },
+        "abort": {
+            "reauth_successful": "Ny autentisering lyckades"
+        }
+    }
+} 

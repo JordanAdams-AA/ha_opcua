@@ -1,0 +1,12 @@
+{
+    "domain": "opcua",
+    "name": "OPC UA",
+    "documentation": "https://github.com/sofagris/home-assistant-opcua",
+    "requirements": ["asyncua>=1.0.0"],
+    "dependencies": [],
+    "codeowners": ["@sofagris"],
+    "config_flow": true,
+    "version": "1.0.0",
+    "iot_class": "local_polling"
+  }
+  
