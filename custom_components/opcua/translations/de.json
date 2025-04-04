@@ -14,10 +14,23 @@
         },
         "error": {
             "cannot_connect": "Verbindung zum OPC UA Server fehlgeschlagen",
-            "unknown": "Unerwarteter Fehler"
+            "unknown": "Unerwarteter Fehler",
+            "invalid_url": "Ungültige Server URL",
+            "invalid_credentials": "Ungültiger Benutzername oder Passwort"
         },
         "abort": {
-            "reauth_successful": "Neue Authentifizierung erfolgreich"
+            "reauth_successful": "Neue Authentifizierung erfolgreich",
+            "already_configured": "Dieser Server ist bereits konfiguriert"
         }
+    },
+    "device": {
+        "server": "OPC UA Server",
+        "sensor": "OPC UA Sensor",
+        "binary_sensor": "OPC UA Binärsensor"
+    },
+    "state": {
+        "connected": "Verbunden",
+        "disconnected": "Getrennt",
+        "error": "Fehler"
     }
 } 

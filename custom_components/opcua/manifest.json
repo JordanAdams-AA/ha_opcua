@@ -7,6 +7,12 @@
     "codeowners": ["@sofagris"],
     "config_flow": true,
     "version": "1.0.0",
-    "iot_class": "local_polling"
-  }
+    "iot_class": "local_polling",
+    "translations": [
+        "en",
+        "no",
+        "sv",
+        "de"
+    ]
+}
   

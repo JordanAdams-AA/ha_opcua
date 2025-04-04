@@ -14,10 +14,23 @@
         },
         "error": {
             "cannot_connect": "Kunde inte ansluta till OPC UA servern",
-            "unknown": "Oväntat fel"
+            "unknown": "Oväntat fel",
+            "invalid_url": "Ogiltig server URL",
+            "invalid_credentials": "Ogiltigt användarnamn eller lösenord"
         },
         "abort": {
-            "reauth_successful": "Ny autentisering lyckades"
+            "reauth_successful": "Ny autentisering lyckades",
+            "already_configured": "Denna server är redan konfigurerad"
         }
+    },
+    "device": {
+        "server": "OPC UA Server",
+        "sensor": "OPC UA Sensor",
+        "binary_sensor": "OPC UA Binär Sensor"
+    },
+    "state": {
+        "connected": "Ansluten",
+        "disconnected": "Frånkopplad",
+        "error": "Fel"
     }
 } 

@@ -14,10 +14,23 @@
         },
         "error": {
             "cannot_connect": "Kunne ikke koble til OPC UA serveren",
-            "unknown": "Uventet feil"
+            "unknown": "Uventet feil",
+            "invalid_url": "Ugyldig server URL",
+            "invalid_credentials": "Ugyldig brukernavn eller passord"
         },
         "abort": {
-            "reauth_successful": "Ny autentisering var vellykket"
+            "reauth_successful": "Ny autentisering var vellykket",
+            "already_configured": "Denne serveren er allerede konfigurert"
         }
+    },
+    "device": {
+        "server": "OPC UA Server",
+        "sensor": "OPC UA Sensor",
+        "binary_sensor": "OPC UA Binær Sensor"
+    },
+    "state": {
+        "connected": "Tilkoblet",
+        "disconnected": "Frakoblet",
+        "error": "Feil"
     }
 } 
