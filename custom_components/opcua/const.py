@@ -7,3 +7,6 @@ CONF_URL = "url"
 CONF_USERNAME = "username"
 CONF_PASSWORD = "password"
 CONF_NAME = "name" 
+
+CONF_NODES = "nodes"
+CONF_NODEID = "nodeid"
